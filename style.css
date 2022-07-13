@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('opensans-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('opensans-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto_condensedregular';
+    src: url('robotocondensed-regular-webfont.woff2') format('woff2'),
+         url('robotocondensed-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-image: url("header-background-from-unsplash.jpg");
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: roboto_condensedregular;
+}
+
+p {
+    font-family: open_sansregular;
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px black;
+    padding: 0.5em auto;
+    font-size: 3.5em;
+    letter-spacing: 0.25em;
+    line-height: 2em;
+    background-color: skyblue;
+}
+
+img {
+    border-radius: 50%;
+    padding-top: 1em;
+}
+
+h2, p {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5em;
+}
+
+section {
+    border: 2px dotted red;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 3em;
+}
